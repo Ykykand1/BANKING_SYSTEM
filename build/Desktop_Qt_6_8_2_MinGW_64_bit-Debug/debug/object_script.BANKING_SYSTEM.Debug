@@ -1,0 +1,12 @@
+debug/check_balance.o
+debug/create_account.o
+debug/main.o
+debug/mainwindow.o
+debug/money_account.o
+debug/money_get.o
+debug/qrc_img.o
+debug/moc_check_balance.o
+debug/moc_create_account.o
+debug/moc_mainwindow.o
+debug/moc_money_account.o
+debug/moc_money_get.o

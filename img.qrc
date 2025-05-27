@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/foto1">
+        <file>banka_projekt.jpg</file>
+        <file>foto-background.qrc</file>
+        <file>../../../../Pictures/logo/1.png</file>
+        <file>../../../../Pictures/logo/2.png</file>
+        <file>../../../../Pictures/logo/3.png</file>
+        <file>../../../../Pictures/logo/4.png</file>
+        <file>../../../../Pictures/logo/5.png</file>
+        <file>../../../../../Downloads/account_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../../../../../Downloads/account_balance_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../../../../../Downloads/payments_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../../../../../Downloads/money_bag_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../../../../../Downloads/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png</file>
+    </qresource>
+</RCC>

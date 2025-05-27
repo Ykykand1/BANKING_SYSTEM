@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>money_account</class>
+ <widget class="QDialog" name="money_account">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>366</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>431</width>
+     <height>311</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Shto leke</string>
+   </property>
+   <widget class="QPushButton" name="depositButton">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>230</y>
+      <width>130</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-weight: bold;
+    min-width: 100px;
+}
+
+QPushButton:hover {
+    background-color: #2980b9;
+}
+
+QPushButton:pressed {
+    background-color: #1a5276;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Konfirmo</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>145</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">    color: rgb(255, 255, 255);
+    font-weight: bold;
+font: 700 12pt &quot;Arial Rounded MT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Jepni vleren e lekeve</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>60</y>
+      <width>131</width>
+      <height>43</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    background-color: #fff;
+    selection-background-color: #3498db;
+    min-height: 25px;
+</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>140</y>
+      <width>131</width>
+      <height>43</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+    padding: 8px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    background-color: #fff;
+    selection-background-color: #3498db;
+    min-height: 25px;
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>70</y>
+      <width>71</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+    font-weight: bold;
+font: 700 12pt &quot;Arial Rounded MT&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Jepni ID</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,12 @@
+release/check_balance.o
+release/create_account.o
+release/main.o
+release/mainwindow.o
+release/money_account.o
+release/money_get.o
+release/qrc_img.o
+release/moc_check_balance.o
+release/moc_create_account.o
+release/moc_mainwindow.o
+release/moc_money_account.o
+release/moc_money_get.o
