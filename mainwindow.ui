@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>687</width>
-    <height>465</height>
+    <width>698</width>
+    <height>435</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -20,7 +20,13 @@
    <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-image: url(:/foto1/banka_projekt.jpg);</string>
+   <string notr="true">background-image: url(:/foto2/pexels-njeromin-13965386.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-origin: content;
+background-attachment: fixed;
+border-image: url(:/foto2/pexels-njeromin-13965386.jpg) 0 0 0 0 stretch stretch;
+</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="autoFillBackground">
@@ -294,7 +300,7 @@ QPushButton:hover {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>687</width>
+     <width>698</width>
      <height>21</height>
     </rect>
    </property>

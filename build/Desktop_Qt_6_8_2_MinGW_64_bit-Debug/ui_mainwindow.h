@@ -42,10 +42,16 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(687, 465);
+        MainWindow->resize(698, 435);
         MainWindow->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
         MainWindow->setAutoFillBackground(false);
-        MainWindow->setStyleSheet(QString::fromUtf8("background-image: url(:/foto1/banka_projekt.jpg);"));
+        MainWindow->setStyleSheet(QString::fromUtf8("background-image: url(:/foto2/pexels-njeromin-13965386.jpg);\n"
+"background-repeat: no-repeat;\n"
+"background-position: center;\n"
+"background-origin: content;\n"
+"background-attachment: fixed;\n"
+"border-image: url(:/foto2/pexels-njeromin-13965386.jpg) 0 0 0 0 stretch stretch;\n"
+""));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         centralwidget->setAutoFillBackground(false);
@@ -172,7 +178,7 @@ public:
         MainWindow->setStatusBar(statusbar);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName("menuBar");
-        menuBar->setGeometry(QRect(0, 0, 687, 21));
+        menuBar->setGeometry(QRect(0, 0, 698, 21));
         MainWindow->setMenuBar(menuBar);
 
         retranslateUi(MainWindow);
