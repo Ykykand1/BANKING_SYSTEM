@@ -129,17 +129,15 @@ compiler_rcc_clean:
 release/qrc_img.cpp: ../../img.qrc \
 		C:/Qt/6.8.2/mingw_64/bin/rcc.exe \
 		../../banka_projekt.jpg \
-		../../foto-background.qrc \
 		C:/Users/anila/Downloads/account_balance_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png \
 		C:/Users/anila/Downloads/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png \
 		C:/Users/anila/Downloads/payments_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png \
-		C:/Users/anila/Downloads/money_bag_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png \
-		C:/Users/anila/Downloads/account_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png \
 		C:/Users/anila/OneDrive/Pictures/logo/2.png \
 		C:/Users/anila/OneDrive/Pictures/logo/3.png \
 		C:/Users/anila/OneDrive/Pictures/logo/4.png \
 		C:/Users/anila/OneDrive/Pictures/logo/1.png \
-		C:/Users/anila/OneDrive/Pictures/logo/5.png
+		C:/Users/anila/OneDrive/Pictures/logo/5.png \
+		C:/Users/anila/Downloads/attach_money_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png
 	C:\Qt\6.8.2\mingw_64\bin\rcc.exe -name img --no-zstd ..\..\img.qrc -o release\qrc_img.cpp
 
 compiler_moc_predefs_make_all: release/moc_predefs.h

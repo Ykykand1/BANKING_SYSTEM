@@ -90,7 +90,7 @@ QPushButton:hover {
      <rect>
       <x>20</x>
       <y>170</y>
-      <width>141</width>
+      <width>131</width>
       <height>51</height>
      </rect>
     </property>
@@ -212,7 +212,7 @@ QPushButton:hover {
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/foto1/Downloads/account_circle_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png);</string>
+     <string notr="true">image: url(:/foto1/Downloads/app_registration_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png);</string>
     </property>
     <property name="text">
      <string/>
@@ -260,7 +260,7 @@ QPushButton:hover {
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/foto1/Downloads/money_bag_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png);</string>
+     <string notr="true">image: url(:/Downloads/attach_money_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png);</string>
     </property>
     <property name="text">
      <string/>
