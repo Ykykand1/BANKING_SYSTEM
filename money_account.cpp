@@ -39,29 +39,30 @@ double money_account::merrBalanca(int idUser)
     return 0.0;
 }
 
-//
+
 void money_account::on_depositButton_clicked()
 {
     bool id_eSakte = false;
     int idUser = ui->lineEdit->text().toInt(&id_eSakte);
     bool vlera = false;
     double vleraDeposites = ui->lineEdit_2->text().toDouble(&vlera);
-
+    //kontrollojme nqs id eshte e sakte
     if(!id_eSakte || idUser <= 0) {
         QMessageBox::warning(this, "Gabim", "Id e gabuar");
         return;
     }
-
+    // kontrollojme vleren e deposites
     if(!vlera || vleraDeposites <= 0.0) {
         QMessageBox::warning(this, "Gabim", "Vlera e depozites duhet te jete nje numer me i madhe se 0!!");
         return;
     }
 
-    // Move these declarations inside the function
+    // vendosim keto deklarime ne funksion
     std::vector<Personi> perdorues = create_account::getUsers();
     bool gjeturUser = false;
     std::string username;
 
+    //kontrollojme id e userit nepermjet nje cikli
     for(const Personi& user : perdorues) {
         if(user.getId() == idUser) {
             gjeturUser = true;
@@ -69,12 +70,13 @@ void money_account::on_depositButton_clicked()
             break;
         }
     }
-
-    if(!gjeturUser) {  // Fixed variable name from gjeturFound to gjeturUser
+   // nese nuk ka user me kete id
+    if(!gjeturUser) {
         QMessageBox::warning(this, "Gabim", "Nuk u gjet perdorues me kete Id!!!");
         return;
     }
 
+    //kontrollojme balancen
     int indeksibalances = kerkoUserBalanca(idUser);
     if(indeksibalances != -1) {
         balanca_user[indeksibalances].balanca += vleraDeposites;

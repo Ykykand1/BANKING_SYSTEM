@@ -17,16 +17,10 @@
    <enum>Qt::LayoutDirection::LeftToRight</enum>
   </property>
   <property name="autoFillBackground">
-   <bool>false</bool>
+   <bool>true</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-image: url(:/foto2/pexels-njeromin-13965386.jpg);
-background-repeat: no-repeat;
-background-position: center;
-background-origin: content;
-background-attachment: fixed;
-border-image: url(:/foto2/pexels-njeromin-13965386.jpg) 0 0 0 0 stretch stretch;
-</string>
+   <string notr="true"/>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="autoFillBackground">
@@ -48,7 +42,7 @@ border-image: url(:/foto2/pexels-njeromin-13965386.jpg) 0 0 0 0 stretch stretch;
      <string notr="true">
 font: italic 28pt &quot;Arial&quot;;
 background: transparent;
-color: black;
+color: white;
 </string>
     </property>
     <property name="text">
@@ -120,7 +114,7 @@ QPushButton:hover {
      <rect>
       <x>290</x>
       <y>310</y>
-      <width>101</width>
+      <width>111</width>
       <height>41</height>
      </rect>
     </property>
@@ -128,15 +122,17 @@ QPushButton:hover {
      <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="styleSheet">
-     <string notr="true">
-    color: white;               
+     <string notr="true">QPushButton {
+    background-color: #3498db;   /* Blue background */
+    color: white;                /* White text */
     border: none;
     border-radius: 6px;
     padding: 6px 12px;
+}
 
-
-
-</string>
+QPushButton:hover {
+    background-color: #2980b9;   /* Darker blue on hover */
+}</string>
     </property>
     <property name="text">
      <string>         Exit</string>
@@ -145,7 +141,7 @@ QPushButton:hover {
    <widget class="QPushButton" name="Check">
     <property name="geometry">
      <rect>
-      <x>510</x>
+      <x>500</x>
       <y>170</y>
       <width>151</width>
       <height>51</height>
@@ -175,9 +171,9 @@ QPushButton:hover {
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>350</x>
+      <x>340</x>
       <y>170</y>
-      <width>121</width>
+      <width>131</width>
       <height>51</height>
      </rect>
     </property>
@@ -237,7 +233,7 @@ QPushButton:hover {
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>520</x>
+      <x>510</x>
       <y>180</y>
       <width>31</width>
       <height>31</height>

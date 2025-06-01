@@ -1,22 +1,24 @@
 #include "check_balance.h"
 #include "ui_check_balance.h"
-#include "create_account.h" // Access users vector
-#include "money_account.h" // Access balances
+#include "create_account.h" // per te aksesuar vektorin e userave
+#include "money_account.h" // per te aksesuar balancat
 #include <QMessageBox>
 
 check_balance::check_balance(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::check_balance)
-    , userBalance(0.0)  // Initialize userBalance
+    , userBalance(0.0)  // inicializojme  userBalance
 {
     ui->setupUi(this);
 }
 
+//destruktor per te liruar memorjen
 check_balance::~check_balance()
 {
     delete ui;
 }
 
+//funksion i cili merr te dhenat e perdoruesit dhe i afishon me ui
 void check_balance::setUserData(const QString &userName, int id, double balance)
 {
     this->userName = userName;
@@ -25,6 +27,7 @@ void check_balance::setUserData(const QString &userName, int id, double balance)
 
     ui->lineEdit->setText(userName);
     ui->lineEdit_2->setText(QString::number(userId));
+
 }
 
 void check_balance::on_pushButton_clicked()
@@ -41,7 +44,7 @@ void check_balance::on_pushButton_clicked()
     // Merr vektorin nga create_account
     std::vector<Personi> users = create_account::getUsers();
 
-    // Gjen per
+    // Gjen perdoruesin
     bool userFound = false;
     QString name;
 
