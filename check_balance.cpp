@@ -4,6 +4,7 @@
 #include "money_account.h" // per te aksesuar balancat
 #include <QMessageBox>
 
+
 check_balance::check_balance(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::check_balance)

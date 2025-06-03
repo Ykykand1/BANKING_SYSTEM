@@ -11,16 +11,20 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Sistemi Bankar</string>
+   <string>Aplikacioni me i mire bankar</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="img.qrc">
+    <normaloff>:/foto1/Downloads/account_balance_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png</normaloff>:/foto1/Downloads/account_balance_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png</iconset>
   </property>
   <property name="layoutDirection">
    <enum>Qt::LayoutDirection::LeftToRight</enum>
   </property>
   <property name="autoFillBackground">
-   <bool>true</bool>
+   <bool>false</bool>
   </property>
   <property name="styleSheet">
-   <string notr="true"/>
+   <string notr="true">background-image: url(:/foto1/banka_projekt.jpg);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <property name="autoFillBackground">
@@ -32,21 +36,21 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>40</y>
-      <width>261</width>
+      <x>180</x>
+      <y>50</y>
+      <width>341</width>
       <height>61</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">
-font: italic 28pt &quot;Arial&quot;;
+font: italic 50pt &quot;Arial&quot;;
 background: transparent;
 color: white;
 </string>
     </property>
     <property name="text">
-     <string>Sistemi Bankar </string>
+     <string>Banka AAA</string>
     </property>
    </widget>
    <widget class="QPushButton" name="Add">
@@ -302,6 +306,8 @@ QPushButton:hover {
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="img.qrc"/>
+ </resources>
  <connections/>
 </ui>

@@ -1,15 +1,11 @@
 <RCC>
     <qresource prefix="/foto1">
         <file>banka_projekt.jpg</file>
-        <file>../../../../Pictures/logo/1.png</file>
-        <file>../../../../Pictures/logo/2.png</file>
-        <file>../../../../Pictures/logo/3.png</file>
-        <file>../../../../Pictures/logo/4.png</file>
-        <file>../../../../Pictures/logo/5.png</file>
         <file>../../../../../Downloads/account_balance_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png</file>
         <file>../../../../../Downloads/payments_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png</file>
         <file>../../../../../Downloads/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png</file>
         <file>../../../../../Downloads/app_registration_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png</file>
+        <file>../../../../../Downloads/etienne-martin-2_K82gx9Uk8-unsplash.jpg</file>
     </qresource>
     <qresource prefix="/">
         <file>../../../../../Downloads/attach_money_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png</file>
